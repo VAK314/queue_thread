@@ -16,6 +16,5 @@ int main(){
         //sem_t *psem_calc;
     };
 
-
     Q_cl<unit_data> q(20);
 }
