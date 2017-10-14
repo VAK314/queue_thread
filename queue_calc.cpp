@@ -275,17 +275,3 @@ int Q_cl<Tud>::ReadQ(Tud *pud,unsigned long long iId)
 }
 
 
-int main(){
-  struct unit_data
-  {
-      unsigned long long iId;
-      char bCommand;
-      unsigned char diff;
-      char str_ch[20];
-      char str_nb[20];
-      char str_hb[41];
-      char end_send_byte;
-      //sem_t *psem_calc;
-  };
-  Q_cl<unit_data> my_q(5);
-}
