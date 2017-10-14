@@ -1,3 +1,6 @@
+//
+//  Q_cl - class, queue for communicate between threads 
+//
 #include <string.h>
 #include "queue_calc.h"
 
@@ -275,3 +278,6 @@ int Q_cl<Tud>::ReadQ(Tud *pud,unsigned long long iId)
 }
 
 
+int main(){
+
+}
