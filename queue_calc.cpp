@@ -1,3 +1,6 @@
+//
+//  Q_cl - class, queue for communicate between threads 
+//
 #include <string.h>
 #include "queue_calc.h"
 
